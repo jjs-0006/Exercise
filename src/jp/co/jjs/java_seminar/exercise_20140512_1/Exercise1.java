@@ -5,9 +5,9 @@ public class Exercise1 {
         boolean bo = true;
         byte by = 20;
         short s = 347;
-        int i = 2014;
-        long l = 2038842;
-        float f = (float) 1.3232;
+        int i = 2147483647;
+        long l = 9223372036854775807L;
+        float f = 1.3232F;
         double d = 3.48928492;
         char c = 'a';
         System.out.println("boolean:" + bo);
