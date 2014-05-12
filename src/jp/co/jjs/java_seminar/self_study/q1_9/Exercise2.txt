@@ -1,0 +1,3 @@
+System.out.println(c);
+System.out.println(flag);
+変数c,flagが初期化されていないため、この二つの行でコンパイルエラーが発生する。
