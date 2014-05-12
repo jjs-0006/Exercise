@@ -1,0 +1,7 @@
+char ch;
+short s;
+long l;
+float f;
+
+f / ch - (s * l)
+この式全体の型はfloat型となる
