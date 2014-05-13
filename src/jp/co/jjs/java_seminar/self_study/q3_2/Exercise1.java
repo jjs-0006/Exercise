@@ -10,6 +10,5 @@ public class Exercise1 {
         else{
             System.out.println(d1 + " / " + d2 + " = " + (d1 / d2));
         }
-        int count = 90;
     }
 }
