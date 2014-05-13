@@ -1,0 +1,6 @@
+if(count < 100){
+    System.out.println("Number is less than 100.");
+    System.out.println("Its square is " + count * count);
+}
+
+このコードは問題なく動作する。

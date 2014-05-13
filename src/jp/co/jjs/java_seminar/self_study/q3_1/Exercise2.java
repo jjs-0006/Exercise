@@ -5,12 +5,12 @@ public class Exercise2 {
     public static void main(String[] args) {
         double d;
         if(args[1].equals("feet")){
-            d = Integer.valueOf(args[0]) / 3.28;
-            System.out.println("");
+            d = Double.valueOf(args[0]) / 3.28;
+            System.out.println(d + "メートルです");
         }
-        else if(args[1].equals("meter")){
-            d = Integer.valueOf(args[0]) * 3.28;
-
+        else if(args[1].equals("meters")){
+            d = Double.valueOf(args[0]) * 3.28;
+            System.out.println(d + "フィートです");
         }
 
     }
