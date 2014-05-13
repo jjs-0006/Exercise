@@ -14,5 +14,4 @@ public class Exercise7 {
             System.out.println("4の倍数です");
         }
     }
-
 }
