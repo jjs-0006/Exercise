@@ -8,14 +8,19 @@ public class Exercise4 {
         int b = 2;
         boolean c = true;
         boolean d = false;
-        System.out.println((a == b));
-        System.out.println((a != b));
-        System.out.println((a <= b));
-        System.out.println((a >= b));
-        System.out.println((a < b));
-        System.out.println((a > b));
-        System.out.println((c & d));
-        System.out.println((c | d));
-        System.out.println((c ^ d));
+        System.out.println("a == b:" + (a == b));
+        System.out.println("a != b:" + (a != b));
+        System.out.println("a <= b:" + (a <= b));
+        System.out.println("a >= b:" + (a >= b));
+        System.out.println("a < b:" + (a < b));
+        System.out.println("a > b:" + (a > b));
+        System.out.println("c & d:" + (c & d));
+        System.out.println("c | d:" + (c | d));
+        System.out.println("c ^ d:" + (c ^ d));
+        System.out.println("!c:" + (!c));
+        System.out.println("c && d:" + (c && d));
+        System.out.println("c || d:" + (c || d));
+        System.out.println("c == d:" + (c == d));
+        System.out.println("c != d:" + (c != d));
     }
 }
