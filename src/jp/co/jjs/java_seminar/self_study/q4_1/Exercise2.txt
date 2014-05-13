@@ -1,0 +1,11 @@
+if(count < 10){
+	if(!done)
+		System.out.println("running..");
+	if(count == 5){
+		System.out.println("half way");
+		x = y * 2;
+	}
+	else count++;
+}
+
+このリストでは、elseは4行目のifに関連付けられる。
