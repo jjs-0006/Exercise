@@ -5,7 +5,7 @@ public class Exercise6 {
     public static void main(String[] args) {
         int n = 2;
         if(n == 0){
-            System.out.println("nは0以下です");
+            System.out.println("nは0です");
         }
         else if(n % 2 == 1){
             System.out.println("nは奇数です");
