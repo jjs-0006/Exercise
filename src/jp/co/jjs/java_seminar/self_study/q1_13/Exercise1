@@ -1,0 +1,9 @@
+class AssignmentQuestion{
+	public ststic void main(String args[]){
+		short s1 = 1;
+		short s2 = s1 + 1;
+		System.out.println(s2);
+	}
+}
+
+このプログラムは4行目で型の不一致によるエラーが発生するため、コンパイルできない。
