@@ -9,6 +9,9 @@ public class Exercise1 {
 //        s1.showName();
 //        s2.showName();
         s1.answer();
+        System.out.println(s1.report());
         s1.answer();
+        System.out.println(s1.report());
+        
     }
 }

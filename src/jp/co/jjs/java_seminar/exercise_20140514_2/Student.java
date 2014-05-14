@@ -23,7 +23,10 @@ public class Student {
 
     public void answer(){
         answerCount++;
-        System.out.println(answerCount + "問解いた");
+    }
+
+    public String report(){
+        return answerCount + "問解いた";
     }
 
 }

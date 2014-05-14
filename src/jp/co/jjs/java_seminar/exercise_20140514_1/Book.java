@@ -27,5 +27,9 @@ public class Book {
     public void returnBook(){
         lendState = false;
     }
+    
+    public String getTitle(){
+        return title;
+    }
 
 }
