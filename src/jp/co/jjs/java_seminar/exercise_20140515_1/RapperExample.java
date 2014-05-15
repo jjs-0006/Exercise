@@ -8,8 +8,7 @@ public class RapperExample {
         Character c = new Character('a');
         System.out.println(c);
         Double d = new Double(1.3);
-        System.out.println(Double.MAX_VALUE + " "  + Double.MIN_NORMAL);
-
+        System.out.println(Double.MAX_VALUE + " "  + Double.MIN_NORMAL + " " + d.intValue());
     }
 
 }
