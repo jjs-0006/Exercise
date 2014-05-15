@@ -13,7 +13,6 @@ public class ArrayListExample {
         for(String i:list){
             System.out.print(i + " ");
         }
-        System.out.println(list);
     }
 
 }
