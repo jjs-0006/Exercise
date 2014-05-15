@@ -12,4 +12,5 @@ public class Task {
     public void setNote(String note){
         this.note = note;
     }
+
 }
