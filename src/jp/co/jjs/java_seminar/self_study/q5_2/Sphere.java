@@ -5,13 +5,5 @@ public class Sphere {
     double pointx;
     double pointy;
     double pointz;
-    public Sphere(double r, double pointx, double pointy, double pointz) {
-        this.r = r;
-        this.pointx = pointx;
-        this.pointy = pointy;
-        this.pointz = pointz;
-    }
-    public Sphere() {
-        // TODO 自動生成されたコンストラクター・スタブ
-    }
+
 }
