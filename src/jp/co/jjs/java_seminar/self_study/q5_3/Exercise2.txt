@@ -1,0 +1,2 @@
+パッケージjp.co.jjs.java_seminar.self_study.q5_2のSphereクラスに
+引数がdouble,double,double,doubleのコンストラクタを追加した。

@@ -1,0 +1,2 @@
+パッケージjp.co.jjs.java_seminar.self_study.q5_2のPersonクラスに
+引数がString,int,doubleのコンストラクタを追加した。
