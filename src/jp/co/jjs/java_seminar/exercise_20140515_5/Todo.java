@@ -7,6 +7,7 @@ public class Todo {
 
     public void setList(String note){
         list.add(new Task(note));
+
     }
 
     public void complete(int number){
