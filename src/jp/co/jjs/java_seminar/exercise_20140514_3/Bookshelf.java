@@ -1,5 +1,7 @@
 package jp.co.jjs.java_seminar.exercise_20140514_3;
 
+import java.util.ArrayList;
+
 import jp.co.jjs.java_seminar.exercise_20140514_1.Book;
 
 public class Bookshelf {
@@ -37,7 +39,7 @@ public class Bookshelf {
         System.out.println(number + "番目から取り出しました");
         return b;
     }
-    
+
     public Book outBook(String title){
         for(int i = 0;i < 10;i++){
             if(shelf[i] == null){
@@ -50,6 +52,29 @@ public class Bookshelf {
         }
         System.out.println("見つかりません");
         return null;
+    }
+
+    public void show(){
+        for(int i = 0;i < 10;i++){
+            if(shelf[i] == null){
+                continue;
+            }
+            System.out.println(i + 1 + ":" + shelf[i].getTitle());
+        }
+    }
+
+    public ArrayList<String> output(){  //1つのデータがCSV
+        ArrayList<String> ar = new ArrayList<>();
+        String[] s;
+        for(int i = 0;i < 10;i++){
+            if(shelf[i] == null){
+                continue;
+            }
+            s = shelf[i].getinfo();
+            ar.add(String.join(",", s));
+        }
+        return ar;
+
     }
 
 }
