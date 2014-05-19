@@ -15,8 +15,11 @@ public class BookReader {
                 Charset.forName("UTF-8"))){
             ArrayList<String> ar = new ArrayList<>();
             String s = null;
-            s = reader.readLine();
+
             while((s = reader.readLine()) != null){
+                if(s.contains("ISBN")){
+                    continue;
+                }
                 ar.add(s);
             }
             return ar;
@@ -31,7 +34,9 @@ public class BookReader {
     public static void bookWrite(String name,ArrayList<String> ar){
         try(BufferedWriter writer = Files.newBufferedWriter(
                 Paths.get(name),
-                Charset.forName("SHIFT-JIS"))){
+                Charset.forName("SHIFT-JIS")
+                
+                )){
             int i = 0;
             while(i < ar.size()){
                 String s = ar.get(i);
@@ -39,8 +44,6 @@ public class BookReader {
                 i++;
             }
             System.out.println("ファイルに出力");
-
-
 
         } catch (IOException e) {
             // TODO 自動生成された catch ブロック

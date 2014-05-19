@@ -1,0 +1,3 @@
+public static void main(String[] args){・・・
+このメソッドの修飾子について、publicはどこからでもこのメソッドを呼び出せることを表す。
+staticは、このメソッドが静的に宣言されているいことを表す。

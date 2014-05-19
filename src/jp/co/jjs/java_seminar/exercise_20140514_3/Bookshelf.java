@@ -5,7 +5,8 @@ import java.util.ArrayList;
 import jp.co.jjs.java_seminar.exercise_20140514_1.Book;
 
 public class Bookshelf {
-    Book[] shelf = new Book[10]; //
+    Book[] shelf = new Book[10];
+
     int bookCount;
     String theme;
 
@@ -75,6 +76,10 @@ public class Bookshelf {
         }
         return ar;
 
+    }
+
+    public Book[] getAll(){
+        return shelf;
     }
 
 }
