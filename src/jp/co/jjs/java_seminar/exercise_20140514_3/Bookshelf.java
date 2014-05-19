@@ -19,6 +19,7 @@ public class Bookshelf {
             System.out.println("error!");
             return;
         }
+
         for(int i = 0;i < 10;i++){
             if(shelf[i] == null){
                 shelf[i] = book;
