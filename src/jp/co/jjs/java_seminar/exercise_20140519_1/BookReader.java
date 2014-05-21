@@ -35,7 +35,7 @@ public class BookReader {
         try(BufferedWriter writer = Files.newBufferedWriter(
                 Paths.get(name),
                 Charset.forName("SHIFT-JIS")
-                
+
                 )){
             int i = 0;
             while(i < ar.size()){
@@ -46,7 +46,6 @@ public class BookReader {
             System.out.println("ファイルに出力");
 
         } catch (IOException e) {
-            // TODO 自動生成された catch ブロック
             e.printStackTrace();
         }
     }
