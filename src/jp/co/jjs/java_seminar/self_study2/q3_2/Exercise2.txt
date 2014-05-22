@@ -1,0 +1,3 @@
+①getParameter
+②String s:list
+③out

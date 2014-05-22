@@ -1,0 +1,3 @@
+Tomcat5.0以降では、クエリ情報はデフォルトの文字コードで処理されるため
+クエリ情報で日本語を送信する際は、server.xmlに
+useBodyEncodingForURI="true" を追加しなければならない。
